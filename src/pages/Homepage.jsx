@@ -144,7 +144,7 @@ setUploadingFile(true)
             variant="contained"
             component="span"
           >
-            {uploadingFile ? "Upload..." : "Upload File"}
+            {uploadingFile ? "Uploading..." : "Upload File"}
           </Button>
           <Typography color={"red"}>
             {errorMessage && errorMessage ? errorMessage :""}
